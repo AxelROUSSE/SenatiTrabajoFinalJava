@@ -1,0 +1,29 @@
+1. ¿Cuáles son las ventajas de programar interfaces web con
+JAVA EE?
+
+Simplifica la complejidad de construir aplicaciones n-tier
+Permite lidiar con fuertes requerimientos no funcionales
+Estandariza una API común entre componentes y servidores de aplicación
+
+
+2. ¿Por qué se deben diseñar capas de la aplicación?
+
+Por que se hace sencillo y mantenible crear diferentes interfaces sobre un mismo sistema sin requerirse cambio alguno en la capa de datos o lógica.
+
+
+3. ¿En qué consiste la creación de un Sevlet?
+
+Una clase java que extiende de la clase javax.servlet.http.HttpServlet. Los Servlet se ejecutan sobre un servidor, por ejemplo Apache Tomcat.
+
+
+4. ¿Por qué implementar JDBC / Servlet API para la conexión
+de base de datos?
+
+Dan acceso a base de datos relacionales con Java de una forma completa y sencilla.
+
+
+5. ¿Qué ventaja tiene implementar POOL de conexiones y
+transacciones JDBC?
+
+las conexiones se mantienen abiertas, por lo que los clientes se ahorran el tiempo de conexión al DBMS al iniciar la aplicación.
+Mejor manejo de las conexiones
